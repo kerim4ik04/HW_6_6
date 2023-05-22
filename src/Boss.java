@@ -1,11 +1,12 @@
 public class Boss extends GameEntity{
-    Weapon weapon = new Weapon();
+    WeaponType weapon;
 
-    public Weapon getWeapon() {
+    public WeaponType getWeapon() {
         return weapon;
     }
 
-    public void setWeapon(Weapon weapon) {
+    public void setWeapon(WeaponType weapon) {
         this.weapon = weapon;
     }
+
 }
